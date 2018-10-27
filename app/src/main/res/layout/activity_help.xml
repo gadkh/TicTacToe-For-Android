@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gadkh.tictactoe.UI.HelpActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/headerOfHelperTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/helpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textDirection="ltr"
+        android:text="@string/helpString"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/returnMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helpTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:text="@string/return_to_menu"/>
+
+
+</RelativeLayout>
