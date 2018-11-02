@@ -45,10 +45,12 @@ public class Game {
         if(turn==0)
         {
              playerPlayed=this.boardGame.setPositionTileToX(position);
+             this.computerPlayer.setPlayerBoard(position);
         }
         else
         {
              playerPlayed=this.boardGame.setPositionTileToO(position);
+             this.computerPlayer.setComputerBoard(position);
         }
         if(playerPlayed)
         {
